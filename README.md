@@ -1,4 +1,4 @@
-# blsecuritypanel
+# BLsecuritypanel
 This is a customisation of the Homeseer Alarm panel for the BLADE plug in "BLSecurity"
 
 # Installing the solution
