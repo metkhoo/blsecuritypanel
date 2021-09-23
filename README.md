@@ -57,7 +57,7 @@ blconfig.js - this file is used to specify the working parameters.
 - modeperimetertext - string. Default '`<img src="img/lock-armed.gif" align="absmiddle">&nbsp;Perimeter`'.  Perimeter mode text
 - statusnormaltext - string. Default '`<img src="img/alarm-normal.gif" align="absmiddle">&nbsp;Normal`'.  Normal status text
 - statusarmedtext - string. Default '`<img src="img/alarm-normal.gif" align="absmiddle">&nbsp;Armed`'. Armed status text
-- keypressinterval - nuimber.  Default 100.  Interval to wait after pressing key before returning to normal image
+- keypressinterval - number.  Default 100.  Interval to wait after pressing key before returning to normal image
 - key0norm - string.  Default '`<img src="img/0button.png" width="110", height="70">`',              //HTML for image key 0
 - key0press - string.  Default '`<img src="img/buttonpressedbig.gif" width="110", height="70">`',        //HTML for pressed key 0
 - key1norm - string.  Default '`<img src="img/1button.png" width="110", height="70">`',              //HTML for image key 1
