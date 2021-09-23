@@ -1,5 +1,5 @@
 # BLsecuritypanel
-This is a customisation of the Homeseer Alarm panel for the BLADE plug in "BLSecurity"
+This is a customisation of the Homeseer Alarm panel for the BLADE plug in "BLSecurity" (HS3 version)
 
 # Installing the solution
 Simply copy the files into the folder:
