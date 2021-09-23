@@ -62,7 +62,7 @@ blconfig.js - this file is used to specify the working parameters.
 - key0press - string.  Default '<img src="img/buttonpressedbig.gif" width="110", height="70">',        //HTML for pressed key 0
 - key1norm - string.  Default '<img src="img/1button.png" width="110", height="70">',              //HTML for image key 1
 - key1press - string.  Default '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 1
-- key2norm": '<img src="img/2button.png" width="110", height="70">',              //HTML for image key 2
+- key2norm": '`<img src="img/2button.png" width="110", height="70">`',              //HTML for image key 2
 - key2press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 2
 - key3norm": '<img src="img/3button.png" width="110", height="70">',              //HTML for image key 3
 - key3press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 3
