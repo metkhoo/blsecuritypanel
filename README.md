@@ -47,21 +47,21 @@ blconfig.js - this file is used to specify the working parameters.
 - interfaceSupportLinkText": "Support",//Text for Support Link
 - interfaceHelpLinkEnabled": false,
 - interfaceHelpLinkText - string. Default "Help".  Text used for the "Help" Link
-- panelImg - string. Default '<img src="blsecurity_interface.gif" align="absmiddle">'.  The URL for the panel background image
+- panelImg - string. Default '`<img src="blsecurity_interface.gif" align="absmiddle">`'.  The URL for the panel background image
 - urisupport - string. Default "http://forums.homeseer.com/forumdisplay.php?f=1033".  Support URI
 - urihelp": "/BLHelp/BLSecurity/BLSecurity_Help.asp",//Help URI
 - defaultMessage : "Monitoring Mode Disabled",//Default Message Text
-- modesleeptext - string.  Default '<img src="img/lock-armed.gif" align="absmiddle">&nbsp;Stay'.  Stay mode text
-- modearmedtext- string.  Default '<img src="img/lock-armed.gif" align="absmiddle">&nbsp;Armed'.  Armed mode Armed text
-- modedisarmedtext - string. Default '<img src="img/lock-disarmed.gif" align="absmiddle">&nbsp;Disarmed'. Disarmed mode text
-- modeperimetertext - string. Default '<img src="img/lock-armed.gif" align="absmiddle">&nbsp;Perimeter'.  Perimeter mode text
-- statusnormaltext - string. Default '<img src="img/alarm-normal.gif" align="absmiddle">&nbsp;Normal'.  Normal status text
-- statusarmedtext - string. Default '<img src="img/alarm-normal.gif" align="absmiddle">&nbsp;Armed'. Armed status text
+- modesleeptext - string.  Default '`<img src="img/lock-armed.gif" align="absmiddle">&nbsp;Stay`'.  Stay mode text
+- modearmedtext- string.  Default '`<img src="img/lock-armed.gif" align="absmiddle">&nbsp;Armed`'.  Armed mode Armed text
+- modedisarmedtext - string. Default '`<img src="img/lock-disarmed.gif" align="absmiddle">&nbsp;Disarmed`'. Disarmed mode text
+- modeperimetertext - string. Default '`<img src="img/lock-armed.gif" align="absmiddle">&nbsp;Perimeter`'.  Perimeter mode text
+- statusnormaltext - string. Default '`<img src="img/alarm-normal.gif" align="absmiddle">&nbsp;Normal`'.  Normal status text
+- statusarmedtext - string. Default '`<img src="img/alarm-normal.gif" align="absmiddle">&nbsp;Armed`'. Armed status text
 - keypressinterval - nuimber.  Default 100.  Interval to wait after pressing key before returning to normal image
-- key0norm - string.  Default '<img src="img/0button.png" width="110", height="70">',              //HTML for image key 0
-- key0press - string.  Default '<img src="img/buttonpressedbig.gif" width="110", height="70">',        //HTML for pressed key 0
-- key1norm - string.  Default '<img src="img/1button.png" width="110", height="70">',              //HTML for image key 1
-- key1press - string.  Default '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 1
+- key0norm - string.  Default '`<img src="img/0button.png" width="110", height="70">`',              //HTML for image key 0
+- key0press - string.  Default '`<img src="img/buttonpressedbig.gif" width="110", height="70">`',        //HTML for pressed key 0
+- key1norm - string.  Default '`<img src="img/1button.png" width="110", height="70">`',              //HTML for image key 1
+- key1press - string.  Default '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 1
 - key2norm": '`<img src="img/2button.png" width="110", height="70">`',              //HTML for image key 2
 - key2press": '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 2
 - key3norm": '`<img src="img/3button.png" width="110", height="70">`',              //HTML for image key 3
