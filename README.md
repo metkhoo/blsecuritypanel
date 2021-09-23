@@ -63,30 +63,30 @@ blconfig.js - this file is used to specify the working parameters.
 - key1norm - string.  Default '<img src="img/1button.png" width="110", height="70">',              //HTML for image key 1
 - key1press - string.  Default '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 1
 - key2norm": '`<img src="img/2button.png" width="110", height="70">`',              //HTML for image key 2
-- key2press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 2
-- key3norm": '<img src="img/3button.png" width="110", height="70">',              //HTML for image key 3
-- key3press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 3
-- key4norm": '<img src="img/4button.png" width="110", height="70">',              //HTML for image key 4
-- key4press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 4
-- key5norm": '<img src="img/5button.png" width="110", height="70">',              //HTML for image key 5
-- key5press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 5
-- key6norm": '<img src="img/6button.png" width="110", height="70">',              //HTML for image key 6
-- key6press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 6
-- key7norm": '<img src="img/7button.png" width="110", height="70">',              //HTML for image key 7
-- key7press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 7
-- key8norm": '<img src="img/8button.png" width="110", height="70">',              //HTML for image key 8
-- key8press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 8
-- key9norm": '<img src="img/9button.png" width="110", height="70">',              //HTML for image key 9
-- key9press": '<img src="img/buttonpressedbig.gif">',       //HTML for pressed key 9
-- keyclearnorm": '<img src="img/Cbutton.png" width="110", height="70">',        //HTML for clear`
-- keyclearpress": '<img src="img/buttonpressedbig.gif">',   //HTML for clear pressed
-- keyresetnorm":'<img src="img/StarButton.png" width="110", height="70">',         //HTML for reset 
-- keyresetpress":'<img src="img/buttonpressedbig.gif">',    //HTML for reset pressed
-- keyarmnorm":'<img src="img/buttonW2Arm.gif" width="170" height="70">',            //HTML for image arm key
-- keyarmpress":'<img src="img/buttonpressed2.gif">',        //HTML for arm key pressed
-- keyperimeternorm":'<img src="img/buttonW2Perimeter.gif" width="170" height="70">',//HTML for perimeter key
-- keyperimeterpress":'<img src="img/buttonpressed2.gif">',  //HTML for perimeter pressed
-- keysleepnorm":'<img src="img/buttonW2Stay.gif" width="170" height="70">'. HTML for sleep mode image
-- keysleeppress":'<img src="img/buttonpressed2.gif">',      //HTML for sleep mode image pressed
-- keydisarmnorm" - string. Default '<img src="img/buttonW2Disarm.gif" width="170" height="70">'. HTML for disarm mode image normal
-- keydisarmpress - string.  Default '<img src="img/buttonpressed2.gif" >'.  HTML for disarm mode image pressed
+- key2press": '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 2
+- key3norm": '`<img src="img/3button.png" width="110", height="70">`',              //HTML for image key 3
+- key3press": '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 3
+- key4norm": '`<img src="img/4button.png" width="110", height="70">`',              //HTML for image key 4
+- key4press": '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 4
+- key5norm": '`<img src="img/5button.png" width="110", height="70">`',              //HTML for image key 5
+- key5press": '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 5
+- key6norm": '`<img src="img/6button.png" width="110", height="70">`',              //HTML for image key 6
+- key6press": '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 6
+- key7norm": '`<img src="img/7button.png" width="110", height="70">`',              //HTML for image key 7
+- key7press": '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 7
+- key8norm": '`<img src="img/8button.png" width="110", height="70">`',              //HTML for image key 8
+- key8press": '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 8
+- key9norm": '`<img src="img/9button.png" width="110", height="70">`',              //HTML for image key 9
+- key9press": '`<img src="img/buttonpressedbig.gif">`',       //HTML for pressed key 9
+- keyclearnorm": '`<img src="img/Cbutton.png" width="110", height="70">`',        //HTML for clear`
+- keyclearpress": '`<img src="img/buttonpressedbig.gif">`',   //HTML for clear pressed
+- keyresetnorm": '`<img src="img/StarButton.png" width="110", height="70">`',         //HTML for reset 
+- keyresetpress": '`<img src="img/buttonpressedbig.gif">`',    //HTML for reset pressed
+- keyarmnorm": '`<img src="img/buttonW2Arm.gif" width="170" height="70">`',            //HTML for image arm key
+- keyarmpress": '`<img src="img/buttonpressed2.gif">`',        //HTML for arm key pressed
+- keyperimeternorm":'`<img src="img/buttonW2Perimeter.gif" width="170" height="70">`',//HTML for perimeter key
+- keyperimeterpress":'`<img src="img/buttonpressed2.gif">`',  //HTML for perimeter pressed
+- keysleepnorm":'`<img src="img/buttonW2Stay.gif" width="170" height="70">`'. HTML for sleep mode image
+- keysleeppress":'`<img src="img/buttonpressed2.gif">`',      //HTML for sleep mode image pressed
+- keydisarmnorm" - string. Default '`<img src="img/buttonW2Disarm.gif" width="170" height="70">`'. HTML for disarm mode image normal
+- keydisarmpress - string.  Default '`<img src="img/buttonpressed2.gif" >`'.  HTML for disarm mode image pressed
