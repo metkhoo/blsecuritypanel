@@ -30,7 +30,8 @@ blconfig.js - this file is used to specify the working parameters.
 - countdownSize - number. Defaut 11.  The character length of the countdown 
 - charForCode - string.  Default "X".  The Character to use for disarm code echo
 - juggleKeys - boolean.  Default true.  Controls juggling of panel keys
-	//Names of IDs of numeric keys for key juggling
+
+//Names of IDs of numeric keys for key juggling
 - keysDiv - array of strings.  Default ['#key1', '#key2', '#key3', '#key4', '#key5', '#key6', '#key7', '#key8', '#key9', '#key0' ].  The names of the HTML divs that define the numeric keys.
 - keysLeft - array of strings.  Default ['2px','114px','226px', '2px', '114px', '226px', '2px', '114px', '226px', '114px'].  The pixel settings that specify the left postions of each of the keys.
 - keysTop - array of strings.  Default ['2px', '2px', '2px', '74px', '74px', '74px', '146px', '146px', '146px', '218px'].  The pixel settings that define the top of each of the keys for juggling.
