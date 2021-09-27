@@ -1,5 +1,7 @@
 # BLsecuritypanel
 This is a customisation of the Homeseer Alarm panel for the BLADE plug in "BLSecurity" (HS3 version)
+It allows full cusomisation of the Alarm Panel and can "juggle" the keys.
+It works in combination with a special file named "blsecurityoptions.js" which is updated by the plug in.  This special js file will set parameters from the plug in to a bladesecurity object which can then be processed by the client.
 
 # Installing the solution
 Simply copy the files into the folder:
