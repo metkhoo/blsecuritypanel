@@ -1,0 +1,52 @@
+/*Set up fonts*/
+body {font-weight: bold; font-size: 12pt; font-family: arial; font-weight:bold; color:#606860;}
+/*panel display*/
+#alarmpanel {position:absolute; width:534px; height:510px; background-color:#dcdcdc;border-radius:10px;}
+/*Panel display items*/
+#paneldisplay {position:absolute; width:450px; height:110px; top:30px; left:50px; background-color:#99ff99; border-radius:10px;}
+/*Panel dislplay items*/
+#panelmessage {position:absolute; top:20px; left:10px;}
+#panelerrormessage {position:absolute; top:40px; left:10px; color:#FF0000;}
+#countdownTimer {position:absolute; top:5px; left:10px;}
+#panelspeechmessage {position:absolute; top:60px; left:10px; width:440px; font-weight:normal; font-size:8pt;}
+
+/*Key pad container*/
+#keypad {position:absolute; width:338px; height:290px; top:210px; left:10px; background-color:black;}
+/*Keys on keypad*/
+#key1 {position:absolute; top:2px; left:2px;}
+#key2 {position:absolute; top:2px; left:114px;}
+#key3 {position:absolute; top:2px; left:226px;}
+#key4 {position:absolute; top:74px; left:2px;}
+#key5 {position:absolute; top:74px; left:114px;}
+#key6 {position:absolute; top:74px; left:226px;}
+#key7 {position:absolute; top:146px; left:2px;}
+#key8 {position:absolute; top:146px; left:114px;}
+#key9 {position:absolute; top:146px; left:226px;}
+#key0 {position:absolute; top:218px; left:114px;}
+#keyclear {position:absolute; top:218px; left:2px;}
+#keyreset {position:absolute; top:218px; left:226px;}
+/*Functions container*/
+#panelfunctions{position:absolute; width:174px; height:290px; top:210px; left:358px; background-color:black;}
+/*Functions*/
+#keyarm {position:absolute; top:2px; left:2px;}
+#keyperimeter {position:absolute; top:74px; left:2px;}
+#keysleep {position:absolute; top:146px; left:2px;}
+#keydisarm {position:absolute; top:218px; left:2px;}
+/*Links container*/
+#panellinks {position:absolute; width:450px; height:25px; top:5px; left:50px; background-color:#dcdcdc;}
+/*Links */
+#lnkoptions {position:absolute; top:3px; left:120px;}
+#lnkmaintaindevices {position:absolute; top:3px; left:190px;}
+#lnkreports {position:absolute; top:3px; left:320px;}
+#lnksupport {position:absolute; top:3px; left:390px;}
+#lnkhelp {position:absolute; top:3px; left:470px;}
+/*Other panel headings*/
+#txtsecuritymodeheading {position:absolute; top:150px; left: 217px;}
+#txtalertstatusheading {position:absolute; top:180px; left: 217px;}
+#userDisarmCode {position:absolute; top:175px; left:60px; font-size:15pt;}
+/*Other panel items*/
+#txtsecuritymode {position:absolute; top:150px; left:350px;}
+#txtalertstatus {position:absolute; top:180px; left:350px;}
+#txtdisarm {position:absolute; top:160px; left:60px; font-size: 10pt;}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alarm Panel</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="blsecurity.css">
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="blsecurityoptions.js"></script>
+<script type="text/javascript" src="blconfig.js"></script>
+<script type="text/javascript" src="blsecurity.js"></script>
+</head>
+<body>
+<form method="post" name="theAlarmPanel" action="NewAlarmPanel.htm">
+	<div id="alarmpanel" class="alarmpanel">
+		<div id="paneldisplay">
+			<div id="countdownTimer" class="countdownTimer"></div>
+			<div id="panelmessage" class="message"></div>
+			<div id="panelerrormessage" class="panelerrormessage"></div>
+			<div id="panelspeechmessage" class="panelspeechmessage"></div>
+		</div>
+		<!-- Link options -->
+		<div id="panellinks">
+			<div id="lnkoptions" class="lnkoptions" onclick="checkAction('Options');"></div>
+			<div id="lnkmaintaindevices" class="lnkmaintaindevices" onclick="checkAction('MaintainDevices');"></div>
+			<div id="lnkreports" class="lnkreports" onclick="checkAction('Reports');"></div>
+			<div id="lnksupport" class="lnksupport" onclick="checkAction('Support');"></div>
+			<div id="lnkhelp" class="lnkhelp" onclick="checkAction('Help');"></div>
+		</div>
+		<!-- disarm code aera -->
+		<div id="disarm">
+			<div id="txtdisarm" class="disarmtext"></div>
+			<div id="userDisarmCode" class="userDisarmCode"></div>
+		</div>
+		<!-- display decoration -->
+		<div id="paneldecoration">
+			<div id="txtsecuritymodeheading" class="txtsecuritymodeheading"></div>
+			<div id="txtsecuritymode" class="txtsecuritymode"></div>
+			<div id="txtalertstatusheading" class="txtalertstatusheading"></div>
+			<div id="txtalertstatus" class="txtalertstatus"></div>
+		</div>
+		<!-- numeric keypad -->
+		<div id="keypad">
+			<div id="key0" class="key0" onclick="keypadNumberPressed('0');"></div>
+			<div id="key1" class="key1" onclick="keypadNumberPressed('1');"></div>
+			<div id="key2" class="key2" onclick="keypadNumberPressed('2');"></div>
+			<div id="key3" class="key3" onclick="keypadNumberPressed('3');"></div>
+			<div id="key4" class="key4" onclick="keypadNumberPressed('4');"></div>
+			<div id="key5" class="key5" onclick="keypadNumberPressed('5');"></div>
+			<div id="key6" class="key6" onclick="keypadNumberPressed('6');"></div>
+			<div id="key7" class="key7" onclick="keypadNumberPressed('7');"></div>
+			<div id="key8" class="key8" onclick="keypadNumberPressed('8');"></div>
+			<div id="key9" class="key9" onclick="keypadNumberPressed('9');"></div>
+			<div id="keyreset" class="keyreset" onclick="checkAction('Reset');"></div>
+			<div id="keyclear" class="keyclear" onclick="clearDisarmCode();"></div>
+		</div>
+		<!-- main functions -->
+		<div id="panelfunctions">
+			<div id="keyarm" class="keyarm" onclick="checkAction('Arm');"></div>
+			<div id="keyperimeter" class="keyperimeter" onclick="checkAction('Perimeter');"></div>
+			<div id="keysleep" class="keysleep" onclick="checkAction('Sleep');"></div>
+			<div id="keydisarm" class="keydisarm" onclick="checkAction('Disarm');"></div>
+		</div>
+	</div>
+	<!-- return values -->
+	<input type="hidden" name="panel_action" value="">		
+	<input type="hidden" name="disarm_code" value="">
+	<input type="hidden" name="ref_page" value="blsec">
+	<input type="hidden" name="thecurrentpage" value="alarmpanel">
+</form>
+</body>
+</html>
